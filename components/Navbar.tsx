@@ -31,8 +31,12 @@ export const Navbar: React.FC = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <a href="#" className="text-2xl font-serif font-bold tracking-wider text-primary">
-              Duds Closet<span className="text-secondary text-4xl">.</span>
+            <a href="#" className="flex items-center">
+              <img 
+                src="https://i.imgur.com/UWYDtpU.png" 
+                alt="Duds Closet" 
+                className="h-20 w-auto drop-shadow-lg"
+              />
             </a>
           </div>
 
