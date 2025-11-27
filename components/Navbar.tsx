@@ -35,7 +35,7 @@ export const Navbar: React.FC = () => {
               <img 
                 src="https://i.imgur.com/0OJm2Vd.png" 
                 alt="Duds Closet" 
-                className="h-20 w-auto bg-white border border-black p-2 rounded-lg shadow-lg"
+                className="h-20 w-auto bg-white border border-black p-1 rounded shadow-md"
               />
             </a>
           </div>
