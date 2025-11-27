@@ -33,9 +33,9 @@ export const Navbar: React.FC = () => {
           <div className="flex-shrink-0 flex items-center">
             <a href="#" className="flex items-center">
               <img 
-                src="https://i.imgur.com/0OJm2Vd.png" 
+                src="https://i.imgur.com/2VJSDXH.png" 
                 alt="Duds Closet" 
-                className="h-20 w-auto bg-white border border-black p-1 rounded shadow-md"
+                className="h-20 w-auto shadow-md bg-white border border-black p-1 rounded"
               />
             </a>
           </div>
