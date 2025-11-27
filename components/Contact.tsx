@@ -23,7 +23,7 @@ export const Contact: React.FC = () => {
                   </div>
                   <div>
                     <p className="font-medium">WhatsApp</p>
-                    <p className="text-white/70 font-light mt-1">(11) 99999-9999</p>
+                    <p className="text-white/70 font-light mt-1">(71) 99682-5633</p>
                   </div>
                 </div>
                 
@@ -42,8 +42,13 @@ export const Contact: React.FC = () => {
                     <MapPin size={20} className="text-secondary" />
                   </div>
                   <div>
-                    <p className="font-medium">Showroom</p>
-                    <p className="text-white/70 font-light mt-1">Av. Paulista, 1000 - São Paulo, SP</p>
+                    <p className="font-medium">Loja Física</p>
+                    <p className="text-white/70 font-light mt-1">
+                      Avenida Santo Antônio, 801<br/>
+                      Ponto Central, Loja 3<br/>
+                      Feira de Santana - BA<br/>
+                      CEP: 44075-397
+                    </p>
                   </div>
                 </div>
               </div>

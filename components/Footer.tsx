@@ -1,5 +1,5 @@
 import React from 'react';
-import { Instagram, Facebook, Phone } from 'lucide-react';
+import { Instagram, Phone, MessageCircle } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   return (
@@ -16,14 +16,23 @@ export const Footer: React.FC = () => {
               Moda feminina que une elegância, conforto e sofisticação. Transformando o básico em essencial.
             </p>
             <div className="flex space-x-4 mt-6">
-              <a href="https://instagram.com" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary transition-colors duration-300">
+              <a 
+                href="https://www.instagram.com/dudscloset._/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary transition-colors duration-300"
+                aria-label="Instagram"
+              >
                 <Instagram size={18} />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary transition-colors duration-300">
-                <Facebook size={18} />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary transition-colors duration-300">
-                <Phone size={18} />
+              <a 
+                href="https://wa.me/5571996825633" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-green-600 transition-colors duration-300"
+                aria-label="WhatsApp"
+              >
+                <MessageCircle size={18} />
               </a>
             </div>
           </div>
