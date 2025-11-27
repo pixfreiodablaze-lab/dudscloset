@@ -33,7 +33,7 @@ export const Navbar: React.FC = () => {
           <div className="flex-shrink-0 flex items-center">
             <a href="#" className="flex items-center">
               <img 
-                src="https://i.imgur.com/UWYDtpU.png" 
+                src="https://i.imgur.com/0OJm2Vd.png" 
                 alt="Duds Closet" 
                 className="h-20 w-auto drop-shadow-lg"
               />
